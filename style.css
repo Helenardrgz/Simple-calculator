@@ -1,0 +1,136 @@
+        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+        body {
+            width: 100%;
+            height: 47vw;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-direction: row-reverse;
+            margin: 0;
+            background-image: url(assets/foto9.gif);
+            background-size: 50%;
+            background-position: fixed;
+        }
+        
+        .num {
+            width: 5vw;
+            height: 5vw;
+        }
+        
+        .text {
+            width: 15vw;
+            height: 2vw;
+            border-radius: 2vw;
+            letter-spacing: 1vw;
+            text-align: center;
+        }
+        
+        .text1 {
+            width: 2.5vw;
+            height: 2.5vw;
+            border-radius: 50%;
+            letter-spacing: 1vw;
+            text-align: center;
+            margin-bottom: 2vw;
+            cursor: pointer;
+        }
+        
+        .texto {
+            font-size: 6vw;
+            color: white;
+            font-family: 'Press Start 2P', cursive;
+        }
+        
+        .simple {
+            background-image: url(assets/foto2.gif);
+            background-size: cover;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        input {
+            color: #fff;
+            padding: 0.5vw;
+            outline: none;
+            font-size: 2.4vw;
+            font-family: 'Press Start 2P', cursive;
+            font-weight: normal;
+            border-radius: 25%
+        }
+        
+        .main {
+            display: inline-block;
+            padding: 2vw;
+            border-radius: 1.5vw;
+            background-image: url(assets/foto2.gif);
+            background-size: 100%;
+        }
+        
+        .maincolor {
+            background-color: #000;
+        }
+        
+        .blue {
+            background-color: #0cd0cd;
+        }
+        
+        .pin {
+            background-color: #cf1596;
+        }
+        
+        .gre {
+            background-color: #aad800;
+        }
+        
+        .pur {
+            background-color: #8c52ff;
+        }
+        
+        .ora {
+            background-color: #fcb707;
+        }
+        
+        @media only screen and (max-width: 768px) {
+            .texto {
+                font-size: 10vw;
+                text-align: center;
+            }
+            body {
+                background-repeat: no-repeat;
+                background-size: 50%;
+                background-size: cover;
+                background-repeat: repeat-y;
+                display: inline-block;
+                align-items: center;
+            }
+            .main {
+                margin-left: 18vw;
+                padding: 5vw;
+                border-radius: 4vw;
+            }
+            .text1 {
+                width: 8vw;
+                height: 8vw;
+                border-radius: 50%;
+                text-align: center;
+                font-size: 6vw;
+                margin-bottom: 2vw;
+                cursor: pointer;
+            }
+            .text {
+                width: 38vw;
+                height: 6vw;
+                border-radius: 4vw;
+                letter-spacing: 1vw;
+                text-align: center;
+                margin-top: 0.5vw;
+            }
+            .num {
+                width: 12vw;
+                height: 12vw;
+                font-size: 5vw;
+            }
+            .math {
+                margin-left: 2.6vw;
+            }
+        }
